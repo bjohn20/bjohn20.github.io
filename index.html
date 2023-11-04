@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon Johnson</title>
+    <link rel="stylesheet" href="./stylesheet/index.css" type="text/css" />
+  </head>
+  <body class="background">
+    <div class="Navbar">
+      <a href="#Home" class="active">Home</a>
+      <a href="#About">About</a>
+      <a href="#Github">Github</a>
+      <a href="#Contact">Contact</a>
+    </div>
+
+    <br />
+    <br />
+
+    <!--Background video for Home section-->
+    <div id="Home">
+      <video autoplay muted loop id="Typing_Video">
+        <source
+          src="./images/video/pexels-tima-miroshnichenko-5377684 (2160p).mp4"
+          type="video/mp4" />
+        <!--Display message if video falls to run-->
+        Your browser does no support HTML5 video.
+      </video>
+    </div>
+
+    <div class="Video_Text">
+      <h1 class="white-text">Brandon's portfolio</h1>
+        <strong>
+          <p class="center">
+            <q
+              >When I wrote this code, only God and I understood what I did. Now
+              only God knows.</q
+            >
+            <br />
+            – Anonymous
+            <br />
+            <br />
+            My name is Brandon Johnson. Welcome to my portfolio website. On it,
+            I will tell you about my background and experience.
+            <br /><br />Thank you for stopping by and enjoy!
+          </p>
+        </strong>
+    </div>
+
+    <!--About Section-->
+    <div class="row" id="About">
+      <!--Left Column-->
+      <div class="Column_2">
+        <img src="./images/About_pic.jpg" alt="Picture of Brandon" />
+      </div>
+      <!--Right Column-->
+      <div class="Column_1">
+        <h1>About</h1>
+        <p>
+          I am a software developer who loves to code! I also love to chef
+          something up in the kitchen as food is the key to my heart and the
+          whole to my wallet lol. <br /><br />
+          I am a graduate of
+          <a href="https://www.learncodinganywhere.com" target="_blank"
+            >The Tech Academy</a
+          >'s Software Developer Boot Camp, and trained and experienced in the
+          following web and programming languages: HTML, CSS, Javascript, SQL,
+          C# and more. <br /><br />I am a full-stack developer and would love to
+          work with you on your project. <a href="#Contact">Contact</a> me
+          below!
+        </p>
+      </div>
+    </div>
+    <!--End About Section-->
+
+    <!--GitHub Section-->
+    <div class="row" id="GitHub">
+      <!--Left Column-->
+      <div class="Column_1">
+        <h1>GitHub</h1>
+        <p>You can view my coding projects on my GitHub profile here: <br>
+        <p class="center"><a href="https://github.com/" target="_blank">Brandon's GitHub</a></p></p>
+      </div>
+      <!--Right Column -->
+      <div class="Column_2"><a href="https://github.com/" target="_blank"><img src="./images/github-logo.jpeg" alt="GitHub"></a></div>
+    </div>
+    <!--End GitHub Section-->
+
+    <!--Contact Section-->
+    <div class="row" id="Contact">
+      <!--Contact image, left column-->
+      <div class="Column_2 Column_tall">
+        <img src="./images/email_pic.jpg" alt="Contact_Image">
+      </div>
+      <!--Contact form, right column-->
+      <div class="Column_1 Column_tall">
+        <h1>Contact</h1>
+        <!--This specifies where and how to send the form data;
+          we are leaving it blank-->
+        <form action="" method="POST">
+          <!--Here we are utilizing a 3rd party service to submit the contact form data, 
+            insert your formspree endpoint in the action attribute -->
+          <label>Name:</label>
+            <input type="text" placeholder="Please enter your name here">
+          <label>Email:</label>
+            <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+          <label>Message:</label>
+            <input type="text" id="Message" name="Message" placeholder="Please enter your message here">
+            <input type="submit" value="SUBMIT">
+        </form>
+      </div>
+    </div>
+    <!--End Contact Section-->
+
+    <!--Footer Section-->
+    <footer>
+      <p>
+        <p class="center">&copy; Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p><br>
+      </p>
+    </footer>
+    <!--End Footer Section-->
+
+  </body>
+</html>
