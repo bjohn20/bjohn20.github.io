@@ -12,19 +12,6 @@
     <link rel="stylesheet" href="./stylesheet/index.css" type="text/css" />
   </head>
   <body class="Background">
-    <!-- Navbar -->
-    <!-- <div class="Navbar">
-      <a href="#Home" class="active">Home</a>
-      <a href="#About">About</a>
-      <a href="#Github">Github</a>
-      <a
-        onclick="openForm()"
-        ondblclick="closeForm()"
-        class="contact"
-        href="#Contact"
-        >Contact</a
-      >
-    </div> -->
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
       <div class="container-fluid">
@@ -88,10 +75,12 @@
       </div>
     </div>
 
+    <!-- Slideshow Section -->
+
     <div id="Slideshow_Container" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/About_pic.jpg" class="Slideshow_Images active" alt="...">
+          <img src="./images/LinkedIn.jpg" class="Slideshow_Images active" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <p>I'm available to assist you on your project!</p>
           </div>
@@ -137,84 +126,26 @@
         <span class="visually-hidden">Next</span>
       </a>
     </div>
-
-
-    <!-- Slideshow Section -->
-    <!-- <div id="Slideshow_Background">
-      <div id="Slideshow_Container">
-        Slide 1 of #
-        <div class="mySlides fade">
-          <img
-            src="./images/About_pic.jpg"
-            alt="Picture of myself"
-            class="Slideshow_Images" />
-          <div class="text">I'm available to assist you on your project!</div>
-        </div>
-        <!-- Slide 2 of # -->
-        <!-- <div class="mySlides fade">
-          <img
-            src="./images/html_JS_css_logo.png"
-            alt="HTML JS & CSS Logo"
-            class="Slideshow_Images" />
-          <div class="text">
-            I am an aspiring full-stack software developer,<br />
-            So far trained in:<br />HTML, CSS, JavaScript,
-          </div>
-        </div> -->
-        <!-- Slide 3 of # -->
-        <!-- <div class="mySlides fade">
-          <img
-            src="./images/python_logo.png"
-            alt="Python Logo"
-            class="Slideshow_Images" />
-          <div class="text">I'm currently honing my skills in Python,</div>
-        </div>
-        Slide 4 of #
-        <div class="mySlides fade">
-          <img
-            src="./images/django.png"
-            alt="django & desktop code"
-            class="Slideshow_Images" />
-          <div class="text">Tkinter, Sqlite3, Django</div>
-        </div>
-        <!-- Slide 5 of # -->
-        <!-- <div class="mySlides fade">
-          <img
-            src="./images/SQL-Orange-1.png"
-            alt="SQL Database Logo"
-            class="Slideshow_Images" />
-          <div class="text">back end development, databases and SQL.</div>
-        </div> -->
-        <!-- Slide 6 of # -->
-        <!-- <div class="mySlides fade">
-          <img
-            src="./images/ContactUsHeader.jpg"
-            alt="Contact Me Picture"
-            class="Slideshow_Images" />
-          <div class="text">
-            <a class="white-text contact" onclick="openForm()"
-              >Contact me now!</a
-            >
-          </div>
-        </div> -->
-        <!-- Previous and next buttons -->
-        <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="Next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br />
-      <!-- Adds a space between the slideshow images and the dots -->
-
-      <!-- Slideshow dots -->
-      <div style="text-align: center">
-        <span class="dot" onclick="currentSlide(1)"></span
-        ><span class="dot" onclick="currentSlide(2)"></span
-        ><span class="dot" onclick="currentSlide(3)"></span
-        ><span class="dot" onclick="currentSlide(4)"></span
-        ><span class="dot" onclick="currentSlide(5)"></span
-        ><span class="dot" onclick="currentSlide(6)"></span>
-      </div>
+    
+    <div>
+      <!-- Previous and next buttons -->
+      <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="Next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <!-- /Slideshow -->
+    <br />
+    <!-- Adds a space between the slideshow images and the dots -->
+
+    <!-- Slideshow dots -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span
+      ><span class="dot" onclick="currentSlide(2)"></span
+      ><span class="dot" onclick="currentSlide(3)"></span
+      ><span class="dot" onclick="currentSlide(4)"></span
+      ><span class="dot" onclick="currentSlide(5)"></span
+      ><span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+  </div>
+  <!-- /Slideshow -->
 
     <!--About Section-->
     <div class="Row" id="About">
