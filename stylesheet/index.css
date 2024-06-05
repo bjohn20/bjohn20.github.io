@@ -229,7 +229,7 @@ footer {
   top: 50%;
   width: auto;
   padding: 2vw;
-  color: darkgray;
+  /* color: darkgray; */
   font-weight: bold;
   font-size: 1.5vw;
   border-radius: 0 3px 3px 0;
@@ -238,17 +238,17 @@ footer {
 }
 
 /* Positioning the next button on the right hand side of the screen */
-.Next {
+/* .Next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
+} */
 
 /* Hover effect on slide show buttons */
-.Previous:hover,
+/* .Previous:hover,
 .Next:hover {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-}
+} */
 
 /* Slideshow text */
 .text {
